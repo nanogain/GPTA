@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Algorithmes - GPTA</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container header-logo">
+      <img src="logo.png" alt="Logo GPTA" class="logo">
+      <div>
+        <h1>GPTA</h1>
+        <p>Génération Procédurale de Terrain Assistée</p>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="presentation.html">Présentation</a></li>
+          <li><a href="algorithmes.html" class="active">Algorithmes</a></li>
+          <li><a href="interface.html">Interface</a></li>
+          <li><a href="resultats.html">Résultats</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h2>Algorithmes de génération</h2>
+
+    <h3>Bruit de Perlin</h3>
+    <p>Le bruit de Perlin est une méthode de génération de bruit cohérent utilisée pour créer des textures naturelles. Il génère un motif fluide grâce à des gradients interpolés. Très utilisé pour simuler des altitudes, des nuages ou des biomes.</p>
+
+    <h3>Bruit de Simplex</h3>
+    <p>Le bruit de Simplex est une version améliorée du bruit de Perlin. Il est plus rapide et plus stable en dimensions élevées. Il produit des structures plus naturelles et est moins sujet aux artéfacts visuels.</p>
+
+    <h3>Diamond-Square</h3>
+    <p>Un algorithme récursif qui génère une carte de hauteur par interpolation. Il alterne les phases "diamond" (centre d'un carré) et "square" (milieu des côtés) pour produire un relief fractal réaliste.</p>
+
+    <h3>Automate Cellulaire</h3>
+    <p>Utilisé ici pour simuler des transitions entre biomes, il repose sur des règles locales appliquées à chaque cellule. GPTA s’en sert pour faire émerger des zones naturelles et lisibles, comme des plages, forêts, ou montagnes.</p>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 GPTA. Tous droits réservés.</p>
+    </div>
+  </footer>
+</body>
+</html>
