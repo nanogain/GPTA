@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Résultats - GPTA</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container header-logo">
+      <img src="logo.png" alt="Logo GPTA" class="logo">
+      <div>
+        <h1>GPTA</h1>
+        <p>Génération Procédurale de Terrain Assistée</p>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="presentation.html">Présentation</a></li>
+          <li><a href="algorithmes.html">Algorithmes</a></li>
+          <li><a href="interface.html">Interface</a></li>
+          <li><a href="resultats.html" class="active">Résultats</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h2>Résultats Visuels</h2>
+    <p>Voici plusieurs rendus issus de différentes techniques de génération utilisées dans GPTA :</p>
+
+    <h3>Bruit de Perlin</h3>
+    <img src="perlin.png" alt="Exemple de carte avec bruit de Perlin" class="example">
+
+    <h3>Bruit de Simplex</h3>
+    <img src="simplex.png" alt="Exemple de carte avec bruit de Simplex" class="example">
+
+    <h3>Diamond-Square</h3>
+    <img src="diamond_square.png" alt="Résultat avec Diamond-Square" class="example">
+
+    <h3>Analyse comparative</h3>
+    <ul>
+      <li>Le bruit de Perlin produit des variations douces, idéal pour les montagnes</li>
+      <li>Le Simplex est plus performant sur les grandes cartes avec moins d’artéfacts</li>
+      <li>Le Diamond-Square donne des reliefs fractals réalistes et très expressifs</li>
+    </ul>
+
+    <h3>Performances</h3>
+    <p>Les générations en 512x512 prennent entre 30 ms et 60 ms. Les cartes 1024x1024 peuvent être générées en moins de 200 ms sur une machine classique.</p>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 GPTA. Tous droits réservés.</p>
+    </div>
+  </footer>
+</body>
+</html>
