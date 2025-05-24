@@ -9,15 +9,19 @@
 </head>
 <body>
   <header>
-    <div class="container">
-      <h1>GPTA</h1>
-      <p>Génération Procédurale de Terrain Assistée</p>
+    <div class="container header-logo">
+      <img src="logo.png" alt="Logo GPTA" class="logo">
+      <div>
+        <h1>GPTA</h1>
+        <p>Génération Procédurale de Terrain Assistée</p>
+      </div>
       <nav>
         <ul>
-          <li><a href="index.html">Accueil</a></li>
-          <li><a href="fonctionnalites.html">Fonctionnalités</a></li>
-          <li><a href="technologies.html">Technologies</a></li>
-          <li><a href="equipe.html">Équipe</a></li>
+          <li><a href="index.html" class="active">Accueil</a></li>
+          <li><a href="presentation.html">Présentation</a></li>
+          <li><a href="algorithmes.html">Algorithmes</a></li>
+          <li><a href="interface.html">Interface</a></li>
+          <li><a href="resultats.html">Résultats</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
@@ -26,28 +30,30 @@
 
   <main class="container">
     <section>
-      <h2>Présentation du projet</h2>
-      <p>GPTA est une solution de génération de terrain procédurale, pensée pour les jeux vidéo et les simulations interactives. Elle permet à un utilisateur de dessiner manuellement une esquisse de terrain, que le système complète automatiquement pour obtenir un monde cohérent et esthétique.</p>
+      <h2>Bienvenue sur GPTA</h2>
+      <p><strong>GPTA</strong> est un moteur de génération procédurale de terrain intelligent et assisté, conçu pour transformer des esquisses dessinées à la main en cartes cohérentes et immersives. Il allie intelligence algorithmique et contrôle créatif.</p>
     </section>
 
     <section>
-      <h2>Objectifs</h2>
+      <h2>Pourquoi GPTA ?</h2>
       <ul>
-        <li>Créer un outil simple d'utilisation pour les développeurs et créateurs indépendants</li>
-        <li>Permettre une génération de terrains variée, naturelle et contrôlable</li>
-        <li>Utiliser des techniques d’intelligence artificielle et d’algorithmes procéduraux</li>
+        <li>Complétion automatique de cartes depuis un simple dessin</li>
+        <li>Utilisation de bruits procéduraux avancés (Perlin, Simplex)</li>
+        <li>Résultats visuels naturels, variés et rapides</li>
+        <li>Interface de dessin intégrée</li>
+        <li>Développement en Rust avec SDL2</li>
       </ul>
     </section>
 
-    <section>
-      <h2>Vidéo Démo</h2>
-      <p><em>(À insérer)</em> Une vidéo montrant le processus de dessin initial et la génération automatique du terrain.</p>
+    <section class="image-examples">
+      <img src="paint.png" alt="Exemple dessin utilisateur" class="example">
+      <img src="map.png" alt="Résultat généré" class="example">
     </section>
   </main>
 
   <footer>
     <div class="container">
-      <p>&copy; 2025 GPTA. Tous droits réservés.</p>
+      <p>&copy; 2025 GPTA. Projet étudiant EPITA.</p>
     </div>
   </footer>
 </body>
